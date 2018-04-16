@@ -1,39 +1,43 @@
 # Main class
-import datetime
-
-list_of_available_statuses = ["In progress", "Closed", "New"]
-stars = "***************************************************"
-
-# Inputted by user
-title = None
-description = None
-person_from_list = None
-time_of_request = None
-status = None
-
-# Data inputted during create bug
-def input_data():
-    # Global values
-    global title
-    global description
-    global person_from_list
-    global time_of_request
-    global status
-    global list_of_available_statuses
-
-    try:
-        print(stars)
-        print("Creating new bug report")
-        print("Input title: ")
-        print("Input description: ")
-        print("\n\n1. Krzysztof Zerman\n2. Maciej Jakubowski\n\nInput number next to person you want to assign: ")
-        time_of_request = datetime.datetime.now()
-        print(time_of_request)
-        print("Status: {}".format(str(list_of_available_statuses[2])))
-        print(stars)
-    except:
-        print ("\n{}\nError during create bug\n{}\n".format(stars, stars))
-    return
+import Input_data
+import sys
 
 
-input_data()
+def menu():
+    x = str(list_of_activities())
+    print("x == {}".format(x))
+    return {
+        "1": create_bug(),
+        "2": show_bugs(),
+        "10": print("Program is ended")
+    }.get(x, number_out_of_range())
+
+
+def create_bug():
+    object_to_create = Input_data.InputData()
+    object_to_create.inputting()
+    menu()
+
+
+def number_out_of_range():
+    print("Pls provide number from list below!!!\n")
+    menu()
+
+
+def show_bugs():
+    print("Bug 1")
+    print("Bug 2")
+    menu()
+
+
+def list_of_activities():
+    print("\n\n1.  Create new bug report")
+    print("2.  Show list of bugs")
+    print("10. Exit")
+    x = input("Input number of activity: ")
+    return x
+
+
+# Open menu
+menu()
+
