@@ -24,3 +24,11 @@ przekierowywać problemy, zamykać. Przykład: patrz bugzilla.
 ## W projekcie użyto
 * C++ - Serwera
 * Python - Klient
+
+## GitFlow
+##### https://datasift.github.io/gitflow/IntroducingGitFlow.html
+![alt text](https://datasift.github.io/gitflow/GitFlowDevelopBranch.png)
+* Starajmy się w nazwie zawierać czy dany feature branch dotyczy clienta czy serwera, żeby sobie nie wchodzić w drogę ;)
+* Nie commitujmy nic od razu na develop a tym bardziej na master
+* Jak już skończymy jakiś branch i uznamy, że starczy commitów to wysyłamy kod drugiej osobie do review
+* W kliencie i serwerze znajdują się pliki README.md, tam wpisujmy różne ustalenia i ważniejsze rzeczy które chcemy robić w projekcie (tak żeby była jakaś dokumentacja)
