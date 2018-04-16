@@ -18,8 +18,8 @@ przekierowywać problemy, zamykać. Przykład: patrz bugzilla.
 * Zaimplemetować wysyłanie przez klienta requestu do servera z Nazwą, krótkim opisem, Osobą (wybieraną z listy, server musi zwracać osoby), czasem zgłoszenia, statusem, opisem.
 * Zaimplemetować wysyłanie przez server response do klienta z Nazwą, krótkim opisem, Osobą (wybieraną z listy, server musi zwracać osoby), czasem zgłoszenia, statusem, opisem.
 * Stworzyć UX dla klienta
-* Odbieranie listę błędów z servera dla klienta
-* Wysyłanie listy błędów z servera
+* Odbieranie listę błędów z serwera dla klienta
+* Wysyłanie listy błędów z serwera
 
 ## W projekcie użyto
 * C++ - Serwera
