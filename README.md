@@ -15,4 +15,12 @@ przekierowywać problemy, zamykać. Przykład: patrz bugzilla.
 ```
 ## Etapy projektu
 * Podstawowa komunikacja klient-server
-* Zaimplemetować wysyłanie przez klienta requestu do servera z Nazwą, Opisem, Osobę wpisaną do zajęcia
+* Zaimplemetować wysyłanie przez klienta requestu do servera z Nazwą, krótkim opisem, Osobą (wybieraną z listy, server musi zwracać osoby), czasem zgłoszenia, statusem, opisem.
+* Zaimplemetować wysyłanie przez server response do klienta z Nazwą, krótkim opisem, Osobą (wybieraną z listy, server musi zwracać osoby), czasem zgłoszenia, statusem, opisem.
+* Stworzyć UX dla klienta
+* Odbieranie listę błędów z servera dla klienta
+* Wysyłanie listy błędów z servera
+
+## W projekcie użyto
+* C++ - Serwera
+* Python - Klient
