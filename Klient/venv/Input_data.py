@@ -13,13 +13,13 @@ class InputData:
     time_of_request = None
     status = None
 
-    def __init__(self, new_title, new_description, new_person_from_list, new_time_of_request, new_status):
-        self.title = new_title
-        self.description = new_description
-        self.person_from_list = new_person_from_list
-        self.time_of_request = new_time_of_request
-        self.status = new_status
-        return 
+    # def __init__(self, new_title, new_description, new_person_from_list, new_time_of_request, new_status):
+    #     self.title = new_title
+    #     self.description = new_description
+    #     self.person_from_list = new_person_from_list
+    #     self.time_of_request = new_time_of_request
+    #     self.status = new_status
+    #     return
 
     # Data inputted during create bug
     def inputting(self):
