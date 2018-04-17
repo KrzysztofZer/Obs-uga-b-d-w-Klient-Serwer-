@@ -14,10 +14,10 @@
   * Status
   * Przypisanie osoby
   * Dodanie daty stworzenia błędu
- '''
+ ```
  Użytkownik wpisuje: tytuł, opis
  Użytkownik wybiera: osobę do przypisania z listy osób
  Poza użytkownikiem: dodawanie daty stworzenia błędu, status (jest ustawiany automatycznie jako nowy)
- '''
+```
 2. Pokaż wszystkie błędy
 3. Wyjście z programu
