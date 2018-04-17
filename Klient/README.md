@@ -9,11 +9,11 @@
 ### 2nd step Menu
 1. Tworzenie nowego błędu
 * Zawartośc błędu
- * Tytuł
- * Opis
- * Status
- * Przypisanie osoby
- * Dodanie daty stworzenia błędu
+  * Tytuł
+  * Opis
+  * Status
+  * Przypisanie osoby
+  * Dodanie daty stworzenia błędu
  '''
  Użytkownik wpisuje: tytuł, opis
  Użytkownik wybiera: osobę do przypisania z listy osób
