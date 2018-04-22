@@ -15,12 +15,20 @@ przekierowywać problemy, zamykać. Przykład: patrz bugzilla.
 ```
 ## Etapy projektu
 * Podstawowa komunikacja klient-server
-* Zaimplemetować wysyłanie przez klienta requestu do servera z Nazwą, krótkim opisem, Osobą (wybieraną z listy, server musi zwracać osoby), czasem zgłoszenia, statusem.
-* Zaimplemetować wysyłanie przez server response do klienta z Nazwą, krótkim opisem, Osobą (wybieraną z listy, server musi zwracać osoby), czasem zgłoszenia, statusem.
+* Zaimplemetować wysyłanie przez klienta requestu do servera z nazwą, krótkim opisem, osobą (wybieraną z listy, serwer musi zwracać osoby), czasem zgłoszenia, statusem, opisem.
+* Zaimplemetować wysyłanie przez server response do klienta z nazwą, krótkim opisem, osobą (wybieraną z listy, serwer musi zwracać osoby), czasem zgłoszenia, statusem, opisem.
 * Stworzyć UX dla klienta
-* Odbieranie listę błędów z servera dla klienta
-* Wysyłanie listy błędów z servera
+* Odbieranie listę błędów z serwera dla klienta
+* Wysyłanie listy błędów z serwera
 
 ## W projekcie użyto
 * C++ - Serwera
 * Python - Klient
+
+## GitFlow
+##### https://datasift.github.io/gitflow/IntroducingGitFlow.html
+![alt text](https://datasift.github.io/gitflow/GitFlowDevelopBranch.png)
+* Starajmy się w nazwie zawierać czy dany feature branch dotyczy clienta czy serwera, żeby sobie nie wchodzić w drogę ;)
+* Nie commitujmy nic od razu na develop a tym bardziej na master
+* Jak już skończymy jakiś branch i uznamy, że starczy commitów to wysyłamy kod drugiej osobie do review
+* W kliencie i serwerze znajdują się pliki README.md, tam wpisujmy różne ustalenia i ważniejsze rzeczy które chcemy robić w projekcie (tak żeby była jakaś dokumentacja)
